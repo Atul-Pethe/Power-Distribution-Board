@@ -17,7 +17,7 @@ The main tools that I used was KiCAD for the circuit design, as well as CMake fo
 The first step towards building this Power Distribution Board was simply to identify which components were needed. I knew that it was necessary to have a nucleo to send the data to another board, as well as to process the readings from the current sensors in another part of the board. In order to do this, I settled on using the Nucleo L432KC, because it had the necessary pins. My next major step was to wire the configuration for the CAN transceiver, and to wire up the current sensors' outputs to the Nucleo. Unfortunately, this was where I came cross my first major problem, in that I had less input pins on the Nucleo than the output pins of the current sensors. In order to solve this, I used a multiplexer to select which output I am currently reading, and I determined the selector bits by using an output pin on the Nucleo and using a function to determine which pin is being selected. After this, I tested out my program by writing up some code that calculates the correct theoretical current readings and checking this with the actual readings of the current sensor.
 
 ## Design
-
+![alt text](https://github.com/Atul-Pethe/Power-Distribution-Board/blob/main/Power%20Distribution%20Board%20Schematic.png?raw=true)
 ## Programming
 
 ## Overall Result

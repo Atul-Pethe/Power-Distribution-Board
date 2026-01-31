@@ -22,7 +22,6 @@ I validated the system by developing a test suite that compared real-time sensor
 
 ## Design
 ![alt text](https://github.com/Atul-Pethe/Power-Distribution-Board/blob/main/Power%20Distribution%20Board%20Schematic.png?raw=true)
-## Programming
 
 ## Overall Result
 The result of this, was that my board was crucial to our entire team placing 18th out of 101 teams for the electric vehicle competition at FSAE, and we ranked 38th out of 101 teams for design, as well as 3rd in efficiency.
